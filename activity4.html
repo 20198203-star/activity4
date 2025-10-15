@@ -3,9 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LAB4_User Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 </head>
 <body>
-    Activity 4
+    <form>
+        <fieldset>
+            <legend class = "legend">Personal Details</legend>
+            <table> 
+                <tr>
+                    <td>Full name</td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Juan dela Cruz" required></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                </tr>
+                <tr>
+                    <td><input type="email" placeholder="name@example.com" required></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                </tr>
+                <tr>
+                    <td><input type="password" required></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                </tr>
+                <tr>
+                    <td><input type="number" placeholder="Enter your age"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend class="legend">Preferences</legend>
+            <table>
+                <tr>
+                    <td>Gender</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="gender">Male</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="gender">Female</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="gender">Other</td>
+                </tr>
+                <tr>
+                    <td>Interests</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="interests">Web Development</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="interests">Designs</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="interests">AI/ML</td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                </tr>
+                <tr>
+                    <td>
+                        <select>
+                            <option disabled selected>Choose Country</option>
+                            <option>Afghanistan</option> 
+                            <option>Algeria</option>
+                            <option>Argentina</option>
+                            <option>Australia</option>
+                            <option>Bahamas</option>
+                            <option>Bangladesh</option>
+                            <option>Belgium</option>
+                            <option>Bolivia</option>
+                            <option>Canada</option>
+                            <option>Cambodia</option>
+                            <option>France</option>
+                            <option>Greece</option>
+                            <option>Indonesia</option>
+                            <option>Malaysia</option>
+                            <option>Morocco</option>
+                            <option>New Zealand</option>
+                            <option>Nigeria</option>
+                            <option>Pakistan</option>
+                            <option>Philippines</option>
+                            <option>Russia</option>
+                            <option>Saudi Arabia</option>
+                            <option>Singapore</option>
+                            <option>Taiwan</option>
+                            <option>United Kingdom</option>
+                            <option>United States</option>
+                            <option>Vietnam</option>
+                            <option>Zimbabwe</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Short bio</td>
+                </tr>
+                <tr>
+                    <td><textarea id="bio" placeholder="Tell us a bit about yourself..."></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+            <button id="submit">Submit</button>
+            <button id="reset">Reset</button>
+    </form> 
 </body>
 </html>
