@@ -1,0 +1,36 @@
+form{
+    margin:auto;
+}
+
+form fieldset{
+    background-color: lightblue;
+    margin-top:25px;
+}
+
+form fieldset .legend{
+    font-weight: bold;
+}
+
+form #submit{
+    float: right;
+    padding: 10px;
+    margin-right: 5px;
+    background-color:#8aabef;
+}
+
+form #submit:hover{
+    background-color: #2d6ae2;
+    color: white;
+}
+
+form #reset{
+    float:right;
+    padding: 10px;
+    margin-right: 5px;
+    background-color:#9c9aa7;
+}
+
+form #reset:hover{
+    background-color:#6d6b7a;
+    color: white;
+}
