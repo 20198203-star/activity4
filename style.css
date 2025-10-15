@@ -1,5 +1,6 @@
 form{
     margin:auto;
+    font-family: Arial;
 }
 
 form fieldset{
@@ -34,3 +35,4 @@ form #reset:hover{
     background-color:#6d6b7a;
     color: white;
 }
+
